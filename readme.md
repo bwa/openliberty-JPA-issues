@@ -8,10 +8,11 @@ requirement is a running postgres database instance. Update the server.xml to ha
 ## Steps to reproduce
 
 ```
-1. run mvn liberty:dev
-2. You might need to create the schema test on postgres
-3. open https://localhost:9443/openliberty-JPA-issues/api/test2
-4. watch the terminal ...
+1. update server.xml with a running postgres instane of you own
+2. run mvn liberty:dev
+3. You might need to create the schema test on postgres
+4. open https://localhost:9443/openliberty-JPA-issues/api/test
+5. watch the terminal ...
      
 ```
 
